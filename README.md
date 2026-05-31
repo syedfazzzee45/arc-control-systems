@@ -40,3 +40,28 @@ This project focuses on the control layer of the ARC robotics stack.
 Initial repository created.
 
 Next step: add a basic PID controller simulation.
+
+## How to Run
+
+Install dependencies:
+
+    pip install -r requirements.txt
+
+Run the PID control simulation:
+
+    PYTHONPATH=. python3 examples/run_pid_simulation.py
+
+## Demo Output
+
+### PID Control System Response
+
+This simulation shows a PID controller moving a system toward a target setpoint over time.
+
+![PID Response Demo](outputs/pid_response_demo.png)
+
+## Current Features
+
+- Basic PID controller implementation
+- Step response simulation
+- Target setpoint tracking
+- Visualization using Matplotlib
